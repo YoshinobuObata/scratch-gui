@@ -45,6 +45,8 @@ import gdxforIconURL from './gdxfor/gdxfor.png';
 import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
+import emoBlockImage from './emo/Scratch_emo.png';
+import emoBlockInsertIconImage from './emo/bocco-emo_body.png';
 
 export default [
     {
@@ -317,5 +319,17 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Scratch Emo',
+        extensionId: 'emo',
+        iconURL: emoBlockImage,
+        insetIconURL: emoBlockInsertIconImage,
+        description: "Move! Speech! Emo with Scratch",
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://moonmile.net'
     }
 ];
