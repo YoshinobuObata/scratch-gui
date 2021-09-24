@@ -323,13 +323,13 @@ export default [
     {
         name: 'Scratch Emo',
         extensionId: 'emo',
+        collaborator: 'Yukai Engineering Inc.',
         iconURL: emoBlockImage,
         insetIconURL: emoBlockInsertIconImage,
-        description: "Move! Speech! Emo with Scratch",
+        description: "BOCCO emoを動かす",
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
         bluetoothRequired: false,
-        helpLink: 'https://moonmile.net'
     }
 ];
